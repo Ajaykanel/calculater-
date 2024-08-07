@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: pink;
+  
+}
+.main{background:black;height:400px; width:320px; padding-left:10px; padding-top:20px; border:3px solid black;}
+
+.dis input{height:80px; width:310px; border:10px solid black; text-align:right; cursor:pointer; font-size:30px;  }
+
+.bt{display:flex; margin-left:-7px;}
+
+.bt label {
+  display:grid;
+  width: 60px; 
+  height: 60px;
+  background: #292929;
+  place-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin:10px;
+  border-radius:50px;  font-size:25px;
+  font-weight:bold;
+}
+.col label{background:blue;}
+
+#ram{color:red; background:#6b5b95; font-size:35px;}
